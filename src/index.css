@@ -53,6 +53,11 @@
   letter-spacing: 0.1rem;
   border-radius: var(--radius);
   transition: all 0.3s linear;
+  cursor: pointer;
+}
+.filter-btn:focus {
+  background-color: var(--secondary-color);
+  color: #0f172a;
 }
 .filter-btn:hover {
   background-color: var(--secondary-color);
