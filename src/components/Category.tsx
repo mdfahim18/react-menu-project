@@ -1,5 +1,3 @@
-import React from 'react';
-
 type PropsType = {
   filterItems: (category: string) => void;
   categories: string[];
@@ -19,7 +17,6 @@ const Category = (props: PropsType) => {
           </button>
         );
       })}
-      {/* <button onClick={() => filterItems(categories)}>breakfast</button> */}
     </div>
   );
 };
